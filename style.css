@@ -135,3 +135,37 @@ buttons{
     align-items: center;
 }
 
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space_between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer_statement{
+    display: inline-block;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-right: 30px;
+}
+
+.navigation_menu{
+    display: inline-block;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.customer_care{
+    display: inline block;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.our_company{
+    display: inline block;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
