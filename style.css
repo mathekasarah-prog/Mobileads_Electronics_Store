@@ -41,7 +41,7 @@ a :hover{
 }
 
 .cover_image{
-    width: 500px;
+    width: 1000px;
     height: 300px;
 }
 #hero_section{
@@ -120,6 +120,19 @@ opacity: 0.8;
     opacity: 0.5;
 
 }
+
+/*.shop_now{
+    background-color: rgb(224, 138, 31);;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.15s;
+}
+
+.shop_now:hover{
+    background-color: rgb(224, 138, 31);
+}
+    */
 .nav_header{
     display: flex;
 
