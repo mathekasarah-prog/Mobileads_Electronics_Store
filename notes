@@ -1,0 +1,125 @@
+
+
+.product_info{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.product_category{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #888888;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+
+}
+/*
+.product_title{
+    font-size: 1.25rem;
+    color: #222222;
+    margin: 0 0 1rem 0;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.product_meta{
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product_price{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #111111;
+}
+.add_to_cart_button{
+    background: #111111;
+    color: ffffff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.product_badge{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: #10b981;
+    color: #f0ffff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.product_badge.sale{
+    background: #ef4444;
+}
+
+.product_card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.12);
+}
+.add_to_cart_button:hover{
+    background: #3b82f6;
+}
+*/
+
+
+
+
+/*#shop_part{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/*.shop_by_category{
+    display: block;
+    width: 100px;
+}
+
+
+/*#shop_part img{
+    width: 100px;
+    display: inline-block;
+    align-items: flex-end;
+    height: 120px;
+}
+    */
+
+    /*<!--<h3>Audio</h3>
+            <p>High quality sound</p>
+            <button class="shop_now">SHOP NOW</button>
+            </div>
+            <div class="wearable_part">
+            <img class="wearable_image" src="Images/watch.webp" alt="">
+            <h3>Wearables</h3>
+            <p>Smart on your Wrist</p>
+            <button class="shop_now">SHOP NOW</button>
+            </div>
+            <div class="laptop_part">
+            <img class="laptop_image" src="Images/laptop-spectre.jpg" alt="">
+            <h3>Laptops</h3>
+            <p>Power. Performance.Portability</p>
+            <button class="shop_now">SHOP NOW</button>
+            </div>
+            <div class="phone_part">
+            <img class="phone_image" src="Images/s25phone.jpg" alt="">
+            <h3>Phones</h3>
+            <p>Next gen connectivity</p>
+            <button class="shop_now">SHOP NOW</button>
+            </div>
+            <div class="sound_part">
+            <img class="sound_image" src="Images/sonyhometheater.webp" alt="">
+            <h3>Sound System</h3>
+            <p>Classy smarter living</p>
+    -->
