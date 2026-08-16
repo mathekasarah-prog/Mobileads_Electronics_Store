@@ -19,9 +19,11 @@ body{
 }
 a{
     text-decoration: none;
+    text-align: center;
+    justify-content: space-around;
 }
 
-a :hover{
+a:hover{
     cursor: pointer;
     text-decoration: underline;
 }
@@ -121,18 +123,12 @@ opacity: 0.8;
 
 }
 
-/*.shop_now{
-    background-color: rgb(224, 138, 31);;
-    color: #000000;
-    cursor: pointer;
-    border: none;
-    transition-duration: 0.15s;
+.nav_links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
 }
-
-.shop_now:hover{
-    background-color: rgb(224, 138, 31);
-}
-    */
 .nav_header{
     display: flex;
 
@@ -240,12 +236,20 @@ buttons{
 }
 
 .modal_content{
-    flex: 2;
-    display: inline;
+    display: inline-block;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    text-align: center;
 }
 .deals_price{
-    display: flex;
+    display: inline-block;
     align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    text-align: center;
 }
 
 #why_us{
@@ -253,7 +257,7 @@ buttons{
     align-items: center;
     gap: 32px;
     flex-wrap: wrap;
-    margin-right: 70px;
+    margin-right: 100px;
     text-align: center;
 }
 #advantages_part{
