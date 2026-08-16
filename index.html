@@ -9,13 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.google.com/specimen/Dancing+Script?preview.script=Latn">
 </head>
 <body>
     <header>
         <div class="header_top">
         <p><b>FREE EXPRESS SHIPPING</b> on all orders over <b>$199| 30 DAYS EASY RETURNS| 2-YEAR WARRANTY</b></p>
         <P>Exclusive deals.New drops. More value.</P>
-        <button>JOIN MOBILEADS.</button>
+        <button class="join_mobileads">JOIN MOBILEADS.</button>
         </div>
         <div>
          <div class="nav_header">
@@ -45,17 +46,20 @@
     <main>
         <section id="hero_section">
             <div class="hero_content">
-                <p>TECHNOLOGY THAT POWERS YOU.</p>
+                <p class="technology_main">TECHNOLOGY THAT POWERS YOU.</p>
                 <h1>Premium Gadgets.</h1>
-                <h2> Limitless Possibilities.</h2>
+                <h2 class="limitless_possibilities"> <i>Limitless Possibilities.</i></h2>
                 <p>Experience power, speed and innovation like never before</p>
 
-                <button>Shop Now</button>
-                <button>Explore more</button>
+                <button class="shop_now">Shop Now</button>
+                <button class="explore_more">Explore more</button>
                 <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
                 <p>4.8/5 from 50,000+ happy customers</p>
-                <img src="laptopimage.avif" alt="black and gold display photo" width="100px,height=100px">
             </div>
+            <div id="cover_image">
+                <img class="cover_image" src="laptopimage.avif" alt="black and gold display photo" width="100px,height=100px">
+            </div>
+            
         </section>
 
         <section id="shop_section">
@@ -107,7 +111,7 @@
             <p>Wireless Noise Cancelling Earbuds</p>
             <p>$129.99</p>
             <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-           <button>ADD TO CART</button>
+           <button class="add_button">ADD TO CART</button>
            </div>
            
             <div>
@@ -116,7 +120,7 @@
             <p>Over-Ear Wireless Headphones</p>
             <p>$199.99</p>
             <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-            <button>ADD TO CART</button>
+            <button class="add_button">ADD TO CART</button>
             </div>
             <div>
             <img src="watch.webp" alt="Astron Apex 2 watch">
@@ -124,7 +128,7 @@
             <p>Advanced Fitness Smartwatch</p>
             <p>$149.99</p>
             <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-            <button>ADD TO CART</button>
+            <button class="add_button">ADD TO CART</button>
             </div>
             <div>
             <img src="laptop-spectre.jpg" alt="Hp Spectre x360 13 Gen">
@@ -132,7 +136,7 @@
             <p>Ultra-Thin Perfomance Laptop</p>
             <p>$899.99</p>
             <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-            <button>ADD TO CART</button>
+            <button class="add_button">ADD TO CART</button>
             </div>   
             <div>
             <img src="s25phone.jpg" alt="S25 Samsung Phone">
@@ -140,7 +144,7 @@
             <p>5G Smartphone 256GB</p>
             <p>$699.99</p>
             <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-            <button>ADD TO CART</button>
+            <button class="add_button">ADD TO CART</button>
             </div>
         </div>
         
@@ -167,15 +171,15 @@
             </p>
             <p>You save $30(23%)</p>
             <br>
-            <button>SHOP THE DEAL</button>
+            <button class="shop_the_deal">SHOP THE DEAL</button>
             </div>
 
         
         </section>
-        <section why_us_section>
-            
+        <section why_us_section></section>
+           
                 <h3>WHY MOBILEADS</h3>
-                <div id="why_us">
+            <div id="why_us">
                 <h4>Premium Quality</h4>
                 <p>Carefully selected top-tier products</p>
 
@@ -198,16 +202,19 @@
         </section>
     </main>
 
-<footer>
+<footer> 
+    <hr>
     <section id="footer_section">
+        <div class="footer_statement">
     <h2>&#9889;Mobileads</h2>
-    <div class="footer_statement">
+    
     <p>Your  destination for premium electronics and gadgets.Quality, 
         Value and performance you can trust</p>
         <a href="">&#xF437;</a>
     </div>
     <div class="navigation_menu">
         <h4>SHOP</h4>
+        
         <ul>
             <li>All products</li>
             <li>New Arrivals</li>
@@ -233,14 +240,13 @@
         <p>Affiliates</p>
     
     </div>
+    </section>
 
-    <div>
-        
-    <p>&copy; 2024 Mobileads Electronics. All rights reserved.</p>
+    <div class="footer_bottom">
+        <p>&copy; 2024 Mobileads Electronics. All rights reserved.</p>
         <p>Contact us at info@mobileadselectronics.com or (123) 456-7890  </p>
 
     </div>
-    </section>
 </footer>
     
 </body>
